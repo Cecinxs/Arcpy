@@ -15,7 +15,7 @@ arcpy.env.workspace = r"caminho_gdb" #caminho onde estão todos os seus dados
 arcpy.env.overwriteOutput = True  # Permite sobrescrever saídas
 
 # === Nome das camadas dentro da GDB ===
-entrada = "GRID_UNI"
+entrada = "principal"
 sobreposicao = "sobreposicao"
 intersect_output = "saida_intersect"
 summary_output = "saida_summary"
@@ -60,4 +60,4 @@ arcpy.CalculateField_management(
     "PYTHON3"
 )
 
-print("✅ Processo finalizado com sucesso.")
+print("Processo finalizado com sucesso.")
