@@ -1,4 +1,4 @@
 # Arcpy
-Alguns scripts de automação que criei
+Some automation scripts I created
 
-Lembrando que todos esses scripts podem ser transformados em toolbox., basta a correta configuração no seu ambiente.
+Keep in mind that all of these scripts can be turned into toolboxes, as long as they are properly configured in your environment.
